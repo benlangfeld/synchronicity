@@ -1,5 +1,3 @@
-require "synchronicity/version"
-
 require 'thread'
 require 'timeout'
 
