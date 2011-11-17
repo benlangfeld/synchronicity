@@ -37,7 +37,7 @@ module Synchronicity
           subject.wait.must_equal true
         end
 
-        it "returns true if timed out" do
+        it "returns false if timed out" do
           subject.wait(0.01).must_equal false
         end
       end
